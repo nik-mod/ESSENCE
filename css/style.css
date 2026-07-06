@@ -18,19 +18,12 @@ header{
     z-index: 5;
 }
 .header{
-    padding: 35px 100px;
+    padding: 35px 80px;
     max-width: 1440px;
     margin: 0 auto;
 }
 body{
     background-color: #121414;
-    height: 3000px;
-}
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 .nav-ul{
     gap: 36px;
@@ -55,6 +48,7 @@ body{
     font-size: 18px;
     margin-bottom: 32px;
     max-width: 434px;
+    line-height: 1.5;
 }
 .section1{
     margin-top: 30px;
@@ -94,15 +88,71 @@ body{
 }
 .section3{
     max-width: 1280px;
-    margin: 0 auto 120px;
+    margin: 0 auto;
+
+}
+.border{
     border-bottom: 1px solid #333535;
+    margin-bottom: 40px;
 }
 .popular-title{
     font-size: 32px;
     color: #E2E2E2;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .all{
     font-size: 14px;
     color: #C6C6C6;
+}
+.popular-fragnances{
+    object-fit: cover;
+    width: 288px;
+    height: 400px;
+}
+.card{
+    max-width: 290px;
+    border: 1px solid #333535;
+}
+.cards{
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+
+}
+.popfragnance-name{
+    color: #E2E2E2;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 0 0 2px 8px;
+}
+.price{
+    color: #CFC4C5;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 0 0 2px 8px;
+}
+.popfragnance-photo{
+    position: relative;
+    margin-bottom: 16px;
+}
+.main-note{
+    position: absolute;
+    color: #C6C6C6;
+    font-size: 12px;
+    top: 15px;
+    left: 10px;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+footer{
+    border-top: 1px solid #4C4546;
+}
+.footer{
+    padding: 35px 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.security{
+    font-size: 14px;
+    color: #CFC4C5;
 }
