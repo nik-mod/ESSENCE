@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -31,6 +34,9 @@ body{
 .nav-a{
     color: #CFC4C5;
     font-size: 15px;
+}
+.nav-a:hover{
+    border-bottom: 2px solid #333535;
 }
 .wrapper-par{
     color: #C6C6C6;
