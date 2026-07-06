@@ -61,7 +61,7 @@ body{
 }
 .discover-button{
     padding: 12px 40px;
-    background: transparent;
+    background-color: #141414;
     color: #C6C6C6;
     border: 1px solid #C6C6C6;
     font-size: 14px;
@@ -112,11 +112,15 @@ body{
 .card{
     max-width: 290px;
     border: 1px solid #333535;
+    transition: transform 0.2s;
+}
+.card:hover,.fragnance-card:hover {
+    transform: translateY(-6px);
 }
 .cards{
     margin-bottom: 200px;
     flex-wrap: wrap;
-
+    gap: 40px 24px;
 }
 .popfragnance-name{
     color: #E2E2E2;
@@ -155,4 +159,154 @@ footer{
 .security{
     font-size: 14px;
     color: #CFC4C5;
+}
+.about-main{
+    max-width: 700px;
+    margin: 70px auto 130px;
+    text-align: center;
+}
+.more-smell{
+    color: #C6C6C6;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.trust-par{
+    color: #CFC4C5;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.aboutdiv{
+    max-width: 1280px;
+    margin: 0 auto 80px;
+    flex-wrap: wrap;
+}
+.aboutcard{
+    width: 400px;
+    border: 1px solid #4C4546;
+    background-color: #1E2020;
+    padding: 40px;
+}
+.gem,.star,.check{
+    color: #C6C6C6;
+    font-size: 20px;
+    border: 1px solid #C6C6C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius:10px ;
+    margin-bottom: 32px;
+}
+.about-title{
+    color: #E2E2E2;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.about-par{
+    font-size: 16px;
+    color: #CFC4C5;
+    line-height: 2;
+}
+.about-wrapper{
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    height: 500px;
+    border: 1px solid #4C4546;
+    background-color: #1E2020;
+    margin-bottom: 120px;
+}
+.store{
+    max-width: 495px;
+    height: 495px;
+}
+.right-div{
+        position: relative;
+}
+.look-button{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+.fregnance-maintitle{
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.ex-title,.ex-par{
+    max-width: 700px;
+    text-align: center;
+}
+.ex-title{
+    margin: 120px 0 16px 0;
+}
+.ex-par{
+    margin-bottom:80px ;
+}
+.fragnance-cards {
+    max-width: 1280px;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.fragnance-card{
+    max-width: 365px;
+    border: 1px solid #1E2020;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    box-shadow: 0px 19px 41px -2px #000000;
+}
+.collection-photos{
+    object-fit: cover;
+    width: 362px;
+    height: 400px;
+    border-bottom: 1px solid #333535;
+}
+.fragnance-relative{
+    position: relative;
+}
+.absolute-par{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 14px;
+    color: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #1A1C1C;
+}
+.collection-brand{
+    font-size: 14px;
+    color: #C6C6C6;
+    margin-bottom: 6px;
+}
+.brand{
+    font-size: 24px;
+    color: #E2E2E2;
+    margin-bottom: 10px;
+}
+.fregnance-description{
+    max-width: 320px;
+    font-size: 14px;
+    color: #CFC4C5;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.fragnance-price{
+    font-size: 24px;
+    color: #E2E2E2;
+}
+.center{
+    padding: 30px;
+}
+.cart-button{
+    padding: 8px 16px;
+    color: #E2E2E2;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #E2E2E2;
 }
