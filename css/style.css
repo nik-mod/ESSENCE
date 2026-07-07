@@ -28,6 +28,9 @@ header{
 body{
     background-color: #121414;
 }
+.coco,.tomford{
+    box-shadow: 0px 19px 41px -2px #000000;
+}
 .nav-ul{
     gap: 36px;
 }
@@ -118,6 +121,7 @@ body{
 .card{
     max-width: 290px;
     border: 1px solid #333535;
+    box-shadow: 0px 19px 41px -2px #000000;
     transition: transform 0.2s;
 }
 .card:hover,.fragnance-card:hover {
@@ -315,4 +319,64 @@ footer{
     font-size: 14px;
     background: transparent;
     border: 1px solid #E2E2E2;
+}
+.contact-form{
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto 120px;
+}
+.contact{
+    max-width: 400px;
+    padding: 40px;
+    box-shadow: 0px 19px 41px -2px #000000;
+    background-color: #1A1C1C;
+    border: 1px solid #4C4546;
+    border-radius: 20px;
+}
+.form-div{
+    max-width: 820px;
+}
+.contact-title{
+    font-size: 48px;
+    color: #E2E2E2;
+    text-align: center;
+    margin: 130px 0 20px 0;
+}
+.contact-par{
+    font-size: 18px;
+    color: #CFC4C5;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.contact-information{
+    font-size: 36px;
+    color: #E2E2E2;
+    margin-bottom: 30px;
+}
+.our-store{
+    font-size: 18px;
+    color: #CFC4C5;
+    margin-bottom: 60px;
+}
+.location,.phone,.envelope{
+    font-size: 24px;
+    margin:0 16px 0 0;
+    color: #C6C6C6;
+    vertical-align: middle;
+}
+.location-text,.phone-text,.envelope-text{
+    font-size: 14px;
+    color: #C6C6C6;
+}
+.number,.address,.email{
+    font-size: 16px;
+    color: #E2E2E2;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.mini-box{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 12px;
 }
