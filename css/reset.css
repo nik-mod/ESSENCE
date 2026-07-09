@@ -49,4 +49,5 @@ a{
 }
 button{
 	cursor: pointer;
+	padding: clamp(14px, 2vw, 20px);
 }
