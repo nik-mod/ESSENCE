@@ -34,9 +34,10 @@
             <li><a href="./contact.html" class="nav-a">კონტაქტი</a></li>
           </ul>
         </nav>
-        <a href="../html/cart.html"
-          ><i class="fa-solid fa-cart-arrow-down cart"></i
-        ></a>
+        <a href="../html/cart.html" class="cart-link">
+          <i class="fa-solid fa-cart-arrow-down cart"></i>
+          <span class="cart-count">0</span>
+        </a>
       </div>
     </header>
     <main>
@@ -113,7 +114,18 @@
                 <p class="main-note">Leather</p>
               </div>
               <h6 class="popfragnance-name">Tom Ford — Ombré Leather</h6>
-              <p class="price">$ 220</p>
+              <div class="card-footer">
+                <p class="price">$ 220</p>
+                <button
+                  class="cart-button"
+                  data-id="tomford-ombre-leather"
+                  data-name="Tom Ford — Ombré Leather"
+                  data-size="50ml Eau de Parfum"
+                  data-tag="Leather"
+                  data-price="220"
+                  data-img="../imgs/popcol1.jpg"
+                >კალათაში დამატება</button>
+              </div>
             </div>
             <div class="card">
               <div class="popfragnance-photo">
@@ -125,7 +137,18 @@
                 <p class="main-note">Citrus</p>
               </div>
               <h6 class="popfragnance-name">Promtopia - Bergamot</h6>
-              <p class="price">$ 190</p>
+              <div class="card-footer">
+                <p class="price">$ 190</p>
+                <button
+                  class="cart-button"
+                  data-id="promtopia-bergamot"
+                  data-name="Promtopia — Bergamot"
+                  data-size="100ml Eau de Toilette"
+                  data-tag="Citrus"
+                  data-price="190"
+                  data-img="../imgs/popcol2.jpg"
+                >კალათაში დამატება</button>
+              </div>
             </div>
             <div class="card">
               <div class="popfragnance-photo">
@@ -137,7 +160,18 @@
                 <p class="main-note">Woods (Green Woody)</p>
               </div>
               <h6 class="popfragnance-name">Creed — Green Irish Tweed</h6>
-              <p class="price">$ 490</p>
+              <div class="card-footer">
+                <p class="price">$ 490</p>
+                <button
+                  class="cart-button"
+                  data-id="creed-green-irish-tweed"
+                  data-name="Creed — Green Irish Tweed"
+                  data-size="100ml Eau de Parfum"
+                  data-tag="Woods"
+                  data-price="490"
+                  data-img="../imgs/popcol3.jpg"
+                >კალათაში დამატება</button>
+              </div>
             </div>
             <div class="card">
               <div class="popfragnance-photo">
@@ -151,7 +185,18 @@
               <h6 class="popfragnance-name">
                 Van Cleef & Arpels — Rêve de Cashmere
               </h6>
-              <p class="price">$ 240</p>
+              <div class="card-footer">
+                <p class="price">$ 240</p>
+                <button
+                  class="cart-button"
+                  data-id="vca-reve-de-cashmere"
+                  data-name="Van Cleef & Arpels — Rêve de Cashmere"
+                  data-size="75ml Eau de Parfum"
+                  data-tag="Woods"
+                  data-price="240"
+                  data-img="../imgs/popcol4.jpg"
+                >კალათაში დამატება</button>
+              </div>
             </div>
           </div>
         </div>
@@ -170,5 +215,6 @@
       </div>
     </footer>
     <script src="../script.js"></script>
+    <script src="../cart.js"></script>
   </body>
 </html>

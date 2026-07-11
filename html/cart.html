@@ -3,14 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ESSENCE - ექსკლუზიური ნიშ-პარფიუმერიის ონლაინ მაღაზია. აღმოაჩინეთ პრემიუმ ხარისხის მამაკაცის, ქალის და უნისექს სუნამოები."/>
-    <meta name="keywords" content="ESSENCE, სუნამოები, პარფიუმერია, ნიშ პარფიუმერია, perfume, fragrance, Tom Ford, Chanel, Dior"/>
+    <meta
+      name="description"
+      content="ESSENCE - თქვენი კალათა. გადახედეთ არჩეულ სუნამოებს და გააფორმეთ შეკვეთა."
+    />
     <meta name="author" content="Nika" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../imgs/ESSENCE.svg" />
-    <title>ESSENCE - ექსკლუზიური სუნამოების მაღაზია</title>
+    <title>კალათა - ESSENCE</title>
   </head>
   <body>
     <header>
@@ -25,12 +30,49 @@
             <li><a href="./contact.html" class="nav-a">კონტაქტი</a></li>
           </ul>
         </nav>
-        <a href="../html/cart.html"
-          ><i class="fa-solid fa-cart-arrow-down cart"></i
-        ></a>
+        <a href="../html/cart.html" class="cart-link">
+          <i class="fa-solid fa-cart-arrow-down cart"></i>
+          <span class="cart-count">0</span>
+        </a>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="cart-section">
+        <h1 class="cart-page-title">კალათა</h1>
+
+        <div class="cart-content flex">
+          <div class="cart-items" id="cartItems"></div>
+
+          <p class="empty-cart" id="emptyCartMsg" style="display: none">
+            კალათა ცარიელია.<br />
+            აირჩიეთ სასურველი სუნამო ჩვენი კოლექციიდან.<br />
+            <a href="./fragrance.html"
+              ><button class="discover-button">სუნამოების ნახვა</button></a
+            >
+          </p>
+
+          <div class="summary-box" id="summaryBox">
+            <h2>შეკვეთის დეტალები</h2>
+            <div class="summary-row">
+              <span>ქვეჯამი</span>
+              <span id="subtotal">₾ 0.00</span>
+            </div>
+            <div class="summary-row">
+              <span>მიტანა</span>
+              <span>უფასო</span>
+            </div>
+            <hr class="summary-divider" />
+            <div class="summary-total">
+              <span>ჯამური თანხა</span>
+              <span id="total">₾ 0.00</span>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">
+              შეკვეთის გაფორმება
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="footer flex">
         <a href="./index.html"><img src="../imgs/ESSENCE.svg" alt="Logo" /></a>
@@ -44,5 +86,6 @@
       </div>
     </footer>
     <script src="../script.js"></script>
+    <script src="../cart.js"></script>
   </body>
 </html>
