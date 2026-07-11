@@ -824,11 +824,14 @@ textarea.invalid{
     .about-wrapper{
         height: auto;
     }
-    .footer-ul{
-        display: none;
-    }
     .left{
         padding-left: 60px;
+    }
+    .footer{
+        padding: 35px 20px;
+    }
+    .security{
+        font-size: 12px;
     }
 }
 @media(max-width: 834px){
@@ -891,6 +894,13 @@ textarea.invalid{
         flex: 1 1 100%;
         width: 100%;
     }
+    .footer-ul{
+        display: none;
+    }
+    .footer{
+        padding: 35px 80px;
+    }
+
 }
 @media(max-width: 500px){
     .burger-menu,.cart{
