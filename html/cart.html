@@ -3,23 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="ESSENCE - თქვენი კალათა. გადახედეთ არჩეულ სუნამოებს და გააფორმეთ შეკვეთა."
-    />
+    <meta name="description" content="ESSENCE - თქვენი კალათა. გადახედეთ არჩეულ სუნამოებს და გააფორმეთ შეკვეთა." />
     <meta name="author" content="Nika" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
     <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../imgs/ESSENCE.svg" />
     <title>კალათა - ESSENCE</title>
   </head>
   <body>
     <header>
-      <div class="header flex">
+      <div class="header container-wide flex">
         <i class="fa-solid fa-bars burger-menu"></i>
         <a href="./index.html"><img src="../imgs/ESSENCE.svg" alt="Logo" /></a>
         <nav class="navigation">
@@ -36,8 +31,8 @@
         </a>
       </div>
     </header>
-    <main>
-      <section class="cart-section">
+    <main class="cart-main">
+      <section class="cart-section container">
         <h1 class="cart-page-title">კალათა</h1>
 
         <div class="cart-content flex">
@@ -51,20 +46,20 @@
             >
           </p>
 
-          <div class="summary-box" id="summaryBox">
+          <div class="summary-box shadow-card" id="summaryBox">
             <h2>შეკვეთის დეტალები</h2>
             <div class="summary-row">
-              <span>ქვეჯამი</span>
-              <span id="subtotal">₾ 0.00</span>
+              <span class="details">ქვეჯამი</span>
+              <span class="subtotal" id="subtotal">₾ 0.00</span>
             </div>
             <div class="summary-row">
-              <span>მიტანა</span>
-              <span>უფასო</span>
+              <span class="details">მიტანა</span>
+              <span class="details">უფასო</span>
             </div>
             <hr class="summary-divider" />
             <div class="summary-total">
-              <span>ჯამური თანხა</span>
-              <span id="total">₾ 0.00</span>
+              <span class="details">ჯამური თანხა</span>
+              <span class="total" id="total">₾ 0.00</span>
             </div>
             <button class="checkout-btn" id="checkoutBtn">
               შეკვეთის გაფორმება
@@ -74,7 +69,7 @@
       </section>
     </main>
     <footer>
-      <div class="footer flex">
+      <div class="footer container-wide flex">
         <a href="./index.html"><img src="../imgs/ESSENCE.svg" alt="Logo" /></a>
         <ul class="footer-ul nav-ul flex">
           <li><a href="./index.html" class="nav-a">მთავარი</a></li>

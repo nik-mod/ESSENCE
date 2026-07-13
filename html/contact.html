@@ -8,13 +8,14 @@
     <meta name="author" content="Nika" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
     <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../imgs/ESSENCE.svg" />
     <title>ESSENCE - ექსკლუზიური სუნამოების მაღაზია</title>
   </head>
   <body>
     <header>
-      <div class="header flex">
+      <div class="header container-wide flex">
         <i class="fa-solid fa-bars burger-menu"></i>
         <a href="./index.html"><img src="../imgs/ESSENCE.svg" alt="Logo" /></a>
         <nav class="navigation">
@@ -38,34 +39,39 @@
         </p>
       </section>
       <section>
-        <div class="contact-form flex">
-          <div class="contact">
+        <div class="contact-form container flex">
+          <div class="contact shadow-card rounded-lg">
             <h2 class="contact-information">საკონტაქტო ინფორმაცია</h2>
             <p class="our-store">
               ეწვიეთ ჩვენს მაღაზიას ან დაგვიკავშირდით დისტანციურად
             </p>
-            <div class="mini-box">
-              <i class="fa-solid fa-location-dot location"></i>
-              <span class="location-text">მისამართი</span>
+            <div class="contact-row">
+              <div class="mini-box">
+                <i class="fa-solid fa-location-dot location"></i>
+                <span class="location-text">მისამართი</span>
+              </div>
+              <a target="_blank" class="address" href="https://www.google.com/maps/place/Fragrance+World+Georgia/@41.7272347,44.7892976,17z/data=!3m1!4b1!4m6!3m5!1s0x404473dd7a947f2f:0x4d137425022b7a7!8m2!3d41.7272307!4d44.7918725!16s%2Fg%2F11hnsn_1kz?entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D">თევდორე მღვდლის 13</a>
             </div>
-            <a target="_blank" class="address" href="https://www.google.com/maps/place/Fragrance+World+Georgia/@41.7272347,44.7892976,17z/data=!3m1!4b1!4m6!3m5!1s0x404473dd7a947f2f:0x4d137425022b7a7!8m2!3d41.7272307!4d44.7918725!16s%2Fg%2F11hnsn_1kz?entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D">თევდორე მღვდლის 13</a>
-            <div class="mini-box">
-              <i class="fa-solid fa-phone phone"></i>
-              <span class="phone-text">ტელეფონი</span>
+            <div class="contact-row">
+              <div class="mini-box">
+                <i class="fa-solid fa-phone phone"></i>
+                <span class="phone-text">ტელეფონი</span>
+              </div>
+              <a class="number" href="tel:+995 579 28 48 89">+995 579 28 48 89</a>
             </div>
-            <a class="number" href="tel:+995 579 28 48 89">+995 579 28 48 89</a>
-
-            <div class="mini-box">
-              <i class="fa-regular fa-envelope envelope"></i>
-              <span class="envelope-text">ელ-ფოსტა</span>
+            <div class="contact-row">
+              <div class="mini-box">
+                <i class="fa-regular fa-envelope envelope"></i>
+                <span class="envelope-text">ელ-ფოსტა</span>
+              </div>
+              <a class="email" href="mailto:nika.modebadze.1@btu.edu.ge">nika.modebadze.1@btu.edu.ge</a>
             </div>
-            <a class="email" href="mailto:nika.modebadze.1@btu.edu.ge">nika.modebadze.1@btu.edu.ge</a>
           </div>
-          <div class="form-div">
+          <div class="form-div shadow-card rounded-lg">
             <form action="" method="" class="form" id="contactForm">
               <div class="flex fname-email">
                 <div class="input-group">
-                  <label for="FirstName">სახელი</label>
+                  <label class="contacts" for="FirstName">სახელი</label>
                   <input
                     type="text"
                     placeholder="თქვენი სახელი"
@@ -75,7 +81,7 @@
                   />
                 </div>
                 <div class="input-group">
-                  <label for="Email">ელ-ფოსტა</label>
+                  <label class="contacts" for="Email">ელ-ფოსტა</label>
                   <input
                     type="email"
                     placeholder="თქვენი ელ-ფოსტა"
@@ -87,7 +93,7 @@
               </div>
 
               <div class="input-group">
-                <label for="Message">შეტყობინება</label>
+                <label class="contacts" for="Message">შეტყობინება</label>
                 <textarea
                   name="Message"
                   id="Message"
@@ -102,7 +108,7 @@
         </div>
       </section>
       <section>
-        <div class="map-div">
+        <div class="map-div shadow-card container rounded-lg">
           <iframe
             title="ESSENCE მაღაზიის მდებარეობა"
             class="map"
@@ -116,7 +122,7 @@
       </section>
     </main>
     <footer>
-      <div class="footer flex">
+      <div class="footer container-wide flex">
         <a href="./index.html"><img src="../imgs/ESSENCE.svg" alt="Logo" /></a>
         <ul class="footer-ul nav-ul flex">
           <li><a href="./index.html" class="nav-a">მთავარი</a></li>

@@ -1,7 +1,34 @@
-// ===== ESSENCE cart.js =====
-// მარტივი localStorage-ზე დაფუძნებული კალათა.
-// fragrance.html-ზე "კალათაში დამატება" ღილაკები ინახავენ არჩეულ სუნამოებს,
-// ხოლო cart.html კითხულობს და აჩვენებს მათ.
+document.addEventListener('DOMContentLoaded', () => {
+  const burger = document.querySelector('.burger-menu');
+  const nav = document.querySelector('.navigation');
+
+  if (!burger || !nav) return;
+
+  burger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    nav.classList.toggle('nav-open');
+    burger.classList.toggle('fa-bars');
+    burger.classList.toggle('fa-xmark');
+  });
+
+  // მენიუს დახურვა ლინკზე დაჭერისას
+  document.querySelectorAll('.nav-a').forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('nav-open');
+      burger.classList.add('fa-bars');
+      burger.classList.remove('fa-xmark');
+    });
+  });
+
+  // მენიუს დახურვა გარეთ დაჭერისას
+  document.addEventListener('click', (e) => {
+    if (!nav.contains(e.target) && !burger.contains(e.target)) {
+      nav.classList.remove('nav-open');
+      burger.classList.add('fa-bars');
+      burger.classList.remove('fa-xmark');
+    }
+  });
+});
 
 function getCart() {
   return JSON.parse(localStorage.getItem('essenceCart')) || [];

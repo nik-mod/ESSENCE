@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Manrope-medium';
+    src: url('../fonts/Manrope-Medium.eot');
+    src: url('../fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff'),
+        url('../fonts/Manrope-Medium.ttf') format('truetype'),
+        url('../fonts/Manrope-Medium.svg#Manrope-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope-semibold';
+    src: url('../fonts/Manrope-SemiBold.eot');
+    src: url('../fonts/Manrope-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../fonts/Manrope-SemiBold.woff') format('woff'),
+        url('../fonts/Manrope-SemiBold.ttf') format('truetype'),
+        url('../fonts/Manrope-SemiBold.svg#Manrope-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manrope-regular';
+    src: url('../fonts/Manrope-Regular.eot');
+    src: url('../fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff'),
+        url('../fonts/Manrope-Regular.ttf') format('truetype'),
+        url('../fonts/Manrope-Regular.svg#Manrope-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair 9pt SemiCondensed-semibold';
+    src: url('../fonts/Playfair9ptSemiCondensed-SemiBold.eot');
+    src: url('../fonts/Playfair9ptSemiCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Playfair9ptSemiCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/Playfair9ptSemiCondensed-SemiBold.woff') format('woff'),
+        url('../fonts/Playfair9ptSemiCondensed-SemiBold.ttf') format('truetype'),
+        url('../fonts/Playfair9ptSemiCondensed-SemiBold.svg#Playfair9ptSemiCondensed-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Georgian Condensed-semibold';
+    src: url('../fonts/NotoSansGeorgianCondensed-SemiBold.eot');
+    src: url('../fonts/NotoSansGeorgianCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSansGeorgianCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/NotoSansGeorgianCondensed-SemiBold.woff') format('woff'),
+        url('../fonts/NotoSansGeorgianCondensed-SemiBold.ttf') format('truetype'),
+        url('../fonts/NotoSansGeorgianCondensed-SemiBold.svg#NotoSansGeorgianCondensed-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Georgian SemiCondensed-regular';
+    src: url('../fonts/NotoSansGeorgianSemiCondensed-Regular.eot');
+    src: url('../fonts/NotoSansGeorgianSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSansGeorgianSemiCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/NotoSansGeorgianSemiCondensed-Regular.woff') format('woff'),
+        url('../fonts/NotoSansGeorgianSemiCondensed-Regular.ttf') format('truetype'),
+        url('../fonts/NotoSansGeorgianSemiCondensed-Regular.svg#NotoSansGeorgianSemiCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
