@@ -1330,6 +1330,9 @@ textarea.invalid{
         .section1{
         margin-bottom: 60px;
     }
+    .center{
+        padding: 20px;
+    }
 
     
 }

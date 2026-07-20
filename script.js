@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.classList.toggle('fa-xmark');
   });
 
-  // მენიუს დახურვა ლინკზე დაჭერისას
   document.querySelectorAll('.nav-a').forEach((link) => {
     link.addEventListener('click', () => {
       nav.classList.remove('nav-open');
@@ -20,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // მენიუს დახურვა გარეთ დაჭერისას
   document.addEventListener('click', (e) => {
     if (!nav.contains(e.target) && !burger.contains(e.target)) {
       nav.classList.remove('nav-open');
@@ -78,7 +76,7 @@ function updateCartCount() {
 
 function renderCart() {
   const container = document.getElementById('cartItems');
-  if (!container) return; // ეს გვერდი cart.html არაა
+  if (!container) return;
 
   const emptyMsg = document.getElementById('emptyCartMsg');
   const summaryBox = document.getElementById('summaryBox');
@@ -115,7 +113,7 @@ function renderCart() {
         <p class="cart-item-size">${item.size}</p>
       </div>
       <div class="cart-item-right">
-        <p class="cart-item-price">₾ ${(item.price * item.qty).toFixed(2)}</p>
+        <p class="cart-item-price">$ ${(item.price * item.qty).toFixed(2)}</p>
         <div class="qty-box">
           <button class="qty-btn minus" aria-label="შემცირება">−</button>
           <span class="qty-value">${item.qty}</span>
@@ -136,8 +134,8 @@ function renderCart() {
 
   const subtotalEl = document.getElementById('subtotal');
   const totalEl = document.getElementById('total');
-  if (subtotalEl) subtotalEl.textContent = `₾ ${subtotal.toFixed(2)}`;
-  if (totalEl) totalEl.textContent = `₾ ${subtotal.toFixed(2)}`;
+  if (subtotalEl) subtotalEl.textContent = `$ ${subtotal.toFixed(2)}`;
+  if (totalEl) totalEl.textContent = `$ ${subtotal.toFixed(2)}`;
 
   updateCartCount();
 }
